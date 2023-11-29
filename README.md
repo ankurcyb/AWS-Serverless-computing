@@ -5,7 +5,7 @@
 The project aim is to build a recipe website using core AWS services based on serverless Architecture.
 
 
-## What is Serverless coomputing ?
+## What is Serverless computing ?
 
 The ability to build and run servies without having to manage the underlying infrastructure. Or we can say that the infrastructure is provided and managed by cloud provider such as AWS in my case. We are just paying for the services that we are using without owning those services. We can scake the services provided by the cloud provided according to our needs.
 
