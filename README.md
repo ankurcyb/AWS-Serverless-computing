@@ -2,7 +2,7 @@
 
 ## Project Goal
 
-The project aim is to build a website using core AWS services using serverless Architecture.
+The project aim is to build a recipe website using core AWS services based on serverless Architecture.
 
 
 ## What is Serverless coomputing ?
@@ -41,23 +41,43 @@ The first step involves creating S3 bucket as a storage solution for the static 
 ![s3](https://github.com/ankurcyb/AWS-Serverless-computing/assets/141453942/c396335c-96c7-46d0-af20-4696add5eeda)
 
 
-3. Creating an AWS Lambda function:
+2. Creating an AWS Lambda function:
 The second step is to create a Lambda function to storing and retrieving the recipe data from the DynamoDB database. It is the main component of our serverless architecture.
 
 ![lambda](https://github.com/ankurcyb/AWS-Serverless-computing/assets/141453942/6d060a24-867c-483c-8035-dda166dc4234)
-![image](https://github.com/ankurcyb/AWS-Serverless-computing/assets/141453942/0807e53b-b6cc-49fa-b6f8-1f484a837148)
 
 
 
-4. Creating an Amazon API Gateway:
+3. Creating an Amazon API Gateway:
 This step involves creating an API gateway to bridge the gap between our frontend and backend. The API gateway allows us to handle incoming requests and invoke the Lambda function.
+
+![image](https://github.com/ankurcyb/AWS-Serverless-computing/assets/141453942/66f63609-268f-4122-9022-bf522955064a)
 
 ![image](https://github.com/ankurcyb/AWS-Serverless-computing/assets/141453942/b936e798-c321-4497-993d-5e58aacaf61c)
 
+![image](https://github.com/ankurcyb/AWS-Serverless-computing/assets/141453942/0807e53b-b6cc-49fa-b6f8-1f484a837148)
 
-6. Creating an Amazon DynamoDB table:
-In this step we will create a DynamoDB table in which we add our recipe name and method through JSON. Using DynamoDB we can retrieve the data quickly and with reliability.
+4. Creating an Amazon DynamoDB table:
+In this step we will create a DynamoDB table in which we populate our recipe table through JSON. Using DynamoDB we can retrieve the data quickly and with reliability.
 
 ![image](https://github.com/ankurcyb/AWS-Serverless-computing/assets/141453942/480343a2-de7c-438a-b4c0-8f46cf228925)
 
+
+## Final Website 
+
+This is my final website made via combinations of the various AWS services and steps as mentioned above.
+I will keep updating and upgrading the website.
+
+![image](https://github.com/ankurcyb/AWS-Serverless-computing/assets/141453942/03674ab0-aa31-48f0-8d5b-34134a941ea3)
+
+
+## Acknowledgement 
+
+This project is inspired by Building Serveress Application in AWS tutorial by Lucy Wang.
+
+Website:
+
+LinkedIn - https://www.linkedin.com/learning/instructors/lucy-wang
+
+YouTube - https://www.youtube.com/@LucyWangYuxin
 
